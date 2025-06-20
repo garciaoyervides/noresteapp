@@ -22,7 +22,6 @@ import NumbersToText from '../utils/NumbersToText.js';
 import {jsPDF} from 'jspdf';
 import logo from '../receipt_logo.png'
 import QRCode from 'qrcode';
-import Config from '../config/Config.js';
 import dotenv from 'dotenv';
 
 function Receipts (){

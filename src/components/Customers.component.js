@@ -16,7 +16,6 @@ import NotAuthenticated from './NotAuthenticated.component.js';
 import IsLoading from './IsLoading.component.js';
 import axios from 'axios';
 import { useAuth0 } from "@auth0/auth0-react";
-import Config from '../config/Config.js';
 import dotenv from 'dotenv';
 
 function Customers (){
